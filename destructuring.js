@@ -23,7 +23,10 @@ var carDetails = {
 
 //Code Here
 
-
+var color = carDetails.color
+var make = carDetails.make
+var model = carDetails.model
+var year = carDetails.year
 
 ////////// PROBLEM 2 //////////
 
@@ -55,7 +58,16 @@ function greeting( obj ) {
 
 //Code Here
 
+var obj = {
+  utah: 1,
+  california: 2,
+  texas: 3,
+  arizona: 4
+}
 
+function totalPopulation(obj) {
+
+}
 
 ////////// PROBLEM 4 //////////
 
@@ -68,6 +80,14 @@ function greeting( obj ) {
 */
 
 //Code Here
+
+function ingredients(obj) {
+  obj = {
+    carb: "",
+    fat: "",
+    protein: ""
+  }
+}
 
 
 
